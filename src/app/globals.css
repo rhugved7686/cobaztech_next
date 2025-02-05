@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary: #06a3da;
+  --secondary: #34ad54;
+  --light: #eef9ff;
+  --dark: #091e3e;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn-primary,
+.btn-secondary {
+  color: #ffffff;
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 2px;
+}
+
+/* Add more custom styles as needed */
+
