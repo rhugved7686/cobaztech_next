@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <>
     <link href="img/favicon.ico" rel="icon" />

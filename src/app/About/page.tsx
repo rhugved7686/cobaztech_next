@@ -3,14 +3,13 @@ import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
 
-export const About = () => {
+const About = () => {
   return (
     <>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
 
 <link href="img/favicon.ico" rel="icon" />
   {/* Google Web Fonts */}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
     rel="stylesheet"
@@ -111,7 +110,7 @@ export const About = () => {
           style={{ marginBottom: 0, display: "flex", alignItems: "center" }}
         >
           <img
-            src="img/cobaztech.png"
+            src="../public/img/cobaztech.png"
             style={{
               width: "50%",
               maxWidth: "100%",
@@ -143,7 +142,7 @@ export const About = () => {
           <a href="/" className="nav-item nav-link">
             Home
           </a>
-          <a href="/About" className="nav-item nav-link active">
+          <a href="/" className="nav-item nav-link active">
             About
           </a>
           <a href="/Service" className="nav-item nav-link">
