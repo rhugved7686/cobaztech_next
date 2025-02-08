@@ -66,31 +66,31 @@ const Contact = () => {
         >
           <a
             className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-            href=""
+            href="/"
           >
             <i className="fab fa-twitter fw-normal" />
           </a>
           <a
             className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-            href=""
+            href="/"
           >
             <i className="fab fa-facebook-f fw-normal" />
           </a>
           <a
             className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-            href=""
+            href="/"
           >
             <i className="fab fa-linkedin-in fw-normal" />
           </a>
           <a
             className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-            href=""
+            href="/"
           >
             <i className="fab fa-instagram fw-normal" />
           </a>
           <a
             className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-            href=""
+            href="/"
           >
             <i className="fab fa-youtube fw-normal" />
           </a>
@@ -102,7 +102,7 @@ const Contact = () => {
   {/* Navbar Start */}
   <div className="container-fluid position-relative p-0">
     <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-      <a href="index.html" className="navbar-brand p-0">
+      <a href="/" className="navbar-brand p-0">
         <h1
           className="m-0"
           style={{ marginBottom: 0, display: "flex", alignItems: "center" }}
@@ -163,11 +163,11 @@ const Contact = () => {
     <div className="row py-5">
       <div className="col-12 pt-lg-5 mt-lg-5 text-center">
         <h1 className="display-4 text-white animated zoomIn">Contact Us</h1>
-        <a href="" className="h5 text-white">
+        <a href="/" className="h5 text-white">
           Home
         </a>
         <i className="far fa-circle text-white px-2" />
-        <a href="" className="h5 text-white">
+        <a href="/Contact" className="h5 text-white">
           Contact
         </a>
       </div>
@@ -355,7 +355,7 @@ const Contact = () => {
       <div className="row gx-5">
         <div className="col-lg-4 col-md-6 footer-about">
           <div className="d-flex flex-column align-items-center justify-content-center text-left h-90 bg-black p-4">
-            <a href="index.html" className="navbar-brand">
+            <a href="/" className="navbar-brand">
               <h1 className="m-0 text-white">
                 <img
                   src="img/cobaztech.png"
@@ -409,16 +409,16 @@ const Contact = () => {
                 <p className="mb-0">(+91) 9145730054</p>
               </div>
               <div className="d-flex mt-4">
-                <a className="btn btn-primary btn-square me-2" href="#">
+                <a className="btn btn-primary btn-square me-2" href="/">
                   <i className="fab fa-twitter fw-normal" />
                 </a>
-                <a className="btn btn-primary btn-square me-2" href="#">
+                <a className="btn btn-primary btn-square me-2" href="/">
                   <i className="fab fa-facebook-f fw-normal" />
                 </a>
-                <a className="btn btn-primary btn-square me-2" href="#">
+                <a className="btn btn-primary btn-square me-2" href="/">
                   <i className="fab fa-linkedin-in fw-normal" />
                 </a>
-                <a className="btn btn-primary btn-square" href="#">
+                <a className="btn btn-primary btn-square" href="/">
                   <i className="fab fa-instagram fw-normal" />
                 </a>
               </div>
@@ -435,7 +435,7 @@ const Contact = () => {
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Aimcab
                 </a>
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="https://worldtriplink.com">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   World Trip Link
                 </a>
@@ -468,27 +468,27 @@ const Contact = () => {
                 <h3 className="text-light mb-0">Popular Links</h3>
               </div>
               <div className="link-animated d-flex flex-column justify-content-start">
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="/">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Home
                 </a>
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="/About">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   About Us
                 </a>
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="/Service">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Our Services
                 </a>
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="/">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Meet The Team
                 </a>
-                <a className="text-light mb-2" href="#">
+                <a className="text-light mb-2" href="/">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Latest Blog
                 </a>
-                <a className="text-light" href="#">
+                <a className="text-light" href="/Contact">
                   <i className="bi bi-arrow-right text-primary me-2" />
                   Contact Us
                 </a>
@@ -509,7 +509,7 @@ const Contact = () => {
           >
             <p className="mb-0">
               ©{" "}
-              <a className="text-white border-bottom" href="#">
+              <a className="text-white border-bottom" href="/">
                 Cobaztech
               </a>
               . All Rights Reserved.
@@ -517,7 +517,7 @@ const Contact = () => {
               Designed by{" "}
               <a
                 className="text-white border-bottom"
-                href="https://htmlcodex.com"
+                href="/"
               >
                 Cobaztech
               </a>
@@ -530,7 +530,7 @@ const Contact = () => {
   {/* Footer End */}
   {/* Back to Top */}
   <a
-    href="/"
+    href="/Contact"
     className="btn btn-lg btn-primary btn-lg-square rounded back-to-top"
   >
     <i className="bi bi-arrow-up" />
