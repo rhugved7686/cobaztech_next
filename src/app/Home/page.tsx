@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
-import Meta from "@/app/MetaPixel"
 
 const Home = () => {
   return (
@@ -1073,7 +1072,6 @@ const Home = () => {
     <Script src="lib/counterup/counterup.min.js"></Script>
     <Script src="lib/owlcarousel/owl.carousel.min.js"></Script>
     <Script src="js/main.js"></Script>
-
 </>
   )
 }

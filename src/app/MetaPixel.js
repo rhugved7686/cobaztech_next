@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+'use client';
 
 const MetaPixel = () => {
   useEffect(() => {

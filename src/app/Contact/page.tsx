@@ -1,7 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
-import Meta from "@/app/MetaPixel"
 
 const Contact = () => {
   return (

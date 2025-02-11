@@ -2,7 +2,6 @@ import React from 'react'
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
-import Meta from "@/app/MetaPixel"
 
 const About = () => {
   return (
@@ -111,7 +110,7 @@ const About = () => {
           style={{ marginBottom: 0, display: "flex", alignItems: "center" }}
         >
           <img
-            src="/img/cobaztech.png"
+            src="img/cobaztech.png"
             style={{
               width: "50%",
               maxWidth: "100%",
