@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Script from "next/script"
+import Meta from "@/app/MetaPixel"
 
 const Home = () => {
   return (
@@ -510,12 +511,15 @@ const Home = () => {
             <div className="service-icon">
               <i className="fa fa-search text-white" />
             </div>
-            <h4 className="mb-3">Web Development</h4>
-            <p className="m-0">
-              Transforming ideas into responsive, user-friendly websites that
-              drive success. Expertly crafted solutions tailored to meet your
-              business needs and goals
-            </p>
+            <a href="/webDevelopment" className="card-link">
+  <h4 className="mb-3">Web Development</h4>
+  <p className="m-0">
+    Transforming ideas into responsive, user-friendly websites that
+    drive success. Expertly crafted solutions tailored to meet your
+    business needs and goals
+  </p>
+</a>
+
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -1069,6 +1073,7 @@ const Home = () => {
     <Script src="lib/counterup/counterup.min.js"></Script>
     <Script src="lib/owlcarousel/owl.carousel.min.js"></Script>
     <Script src="js/main.js"></Script>
+
 </>
   )
 }
