@@ -526,12 +526,15 @@ const Home = () => {
             <div className="service-icon">
               <i className="fab fa-android text-white" />
             </div>
-            <h4 className="mb-3">App Development</h4>
-            <p className="m-0">
-              Creating intuitive and high-performance apps that enhance user
-              experiences. Custom-built solutions designed to meet your unique
-              business needs and objectives.
-            </p>
+            <a href="/appDevelopment" className="card-link">
+  <h4 className="mb-3">App Development</h4>
+  <p className="m-0">
+    Creating intuitive and high-performance apps that enhance user
+    experiences. Custom-built solutions designed to meet your unique
+    business needs and objectives.
+  </p>
+</a>
+
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
