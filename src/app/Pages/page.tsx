@@ -216,7 +216,6 @@ const Pages = () => {
         style={{ maxWidth: 600 }}
       >
         <h5 className="fw-bold text-primary text-uppercase">Feature Cards</h5>
-        <br />
         <h1 className="mb-0">
           We are Offering Competitive Plans for Our Clients
         </h1>

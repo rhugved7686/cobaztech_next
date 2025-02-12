@@ -226,12 +226,14 @@ const Service = () => {
             <div className="service-icon">
               <i className="fa fa-search text-white" />
             </div>
-            <h4 className="mb-3">Web Development</h4>
-            <p className="m-0">
-              Transforming ideas into responsive, user-friendly websites that
-              drive success. Expertly crafted solutions tailored to meet your
-              business needs and goals
-            </p>
+            <a href="/webDevelopment" className="card-link">
+  <h4 className="mb-3">Web Development</h4>
+  <p className="m-0">
+    Transforming ideas into responsive, user-friendly websites that
+    drive success. Expertly crafted solutions tailored to meet your
+    business needs and goals
+  </p>
+</a>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -239,12 +241,14 @@ const Service = () => {
             <div className="service-icon">
               <i className="fab fa-android text-white" />
             </div>
-            <h4 className="mb-3">App Development</h4>
-            <p className="m-0">
-              Creating intuitive and high-performance apps that enhance user
-              experiences. Custom-built solutions designed to meet your unique
-              business needs and objectives.
-            </p>
+            <a href="/appDevelopment" className="card-link">
+  <h4 className="mb-3">App Development</h4>
+  <p className="m-0">
+    Creating intuitive and high-performance apps that enhance user
+    experiences. Custom-built solutions designed to meet your unique
+    business needs and objectives.
+  </p>
+</a>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
@@ -252,12 +256,14 @@ const Service = () => {
             <div className="service-icon">
               <i className="fa fa-code text-white" />
             </div>
+            <a href="/digitalMarketing" className="card-link">
             <h4 className="mb-3">Digital Marketing</h4>
             <p className="m-0">
               Driving growth through data-driven strategies and targeted digital
               campaigns. Boosting your brand’s online presence and engagement to
               reach the right audience.
             </p>
+            </a>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
