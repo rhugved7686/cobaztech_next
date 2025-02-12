@@ -152,7 +152,11 @@ const WebDevelopment = () => {
       {/* Footer Start */}
       <footer className="bg-dark text-light py-4">
         <div className="container text-center">
-          <p>© 2025 CobazTech. All rights reserved.</p>
+        <p>
+      <a href="https://www.cobaztech.com/" className="text-light" target="_blank" rel="noopener noreferrer">
+        © 2025 CobazTech. All rights reserved.
+      </a>
+    </p>
         </div>
       </footer>
       {/* Footer End */}

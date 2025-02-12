@@ -542,12 +542,14 @@ const Home = () => {
             <div className="service-icon">
               <i className="fa fa-code text-white" />
             </div>
+            <a href="/digitalMarketing" className="card-link">
             <h4 className="mb-3">Digital Marketing</h4>
             <p className="m-0">
               Driving growth through data-driven strategies and targeted digital
               campaigns. Boosting your brand’s online presence and engagement to
               reach the right audience.
             </p>
+            </a>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">

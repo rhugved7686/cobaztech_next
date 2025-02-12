@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Script from "next/script";
 
-const AppDevelopment = () => {
+const DigitalMarketing = () => {
   return (
     <>
       {/* Favicon */}
@@ -86,7 +86,7 @@ const AppDevelopment = () => {
               <a href="/" className="nav-item nav-link">
                 Home
               </a>
-              <a href="/About" className="nav-item nav-link ">
+              <a href="/About" className="nav-item nav-link">
                 About
               </a>
               <a href="/Service" className="nav-item nav-link">
@@ -111,15 +111,13 @@ const AppDevelopment = () => {
       >
         <div className="row py-5">
           <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 className="display-4 text-white animated zoomIn">
-              App Development
-            </h1>
+            <h1 className="display-4 text-white animated zoomIn">Digital Marketing</h1>
             <a href="/" className="h5 text-white">
               Home
             </a>
             <i className="far fa-circle text-white px-2" />
-            <a href="/appDevelopment" className="h5 text-white">
-              App Development
+            <a href="/digitalMarketing" className="h5 text-white">
+              Digital Marketing
             </a>
           </div>
         </div>
@@ -128,100 +126,50 @@ const AppDevelopment = () => {
       {/* Page Content Start */}
       <div className="container py-5">
         <div className="text-center mb-5">
-          <h1 className="text-primary">
-            Premier App Development Services in Pune
-          </h1>
+          <h1 className="text-primary">Best Digital Marketing Company in Pune – CobazTech</h1>
           <p className="text-secondary">
-            Turn Your App Concepts into Reality
+            Accelerate Your Business Growth with Cutting-Edge Digital Marketing Strategies
           </p>
         </div>
-
+        
         <section className="mb-5">
-          <h3 className="text-info">
-            Why Partner with CobazTech for Your Mobile App Needs?
-          </h3>
+          <h3 className="text-info">Why Choose CobazTech for Digital Marketing?</h3>
           <ul className="list-unstyled">
             <li>
-              <strong className="text-dark">
-                1. Proficient Development Team
-              </strong>
-              : Our developers are adept at utilizing cutting-edge technologies
-              to build intuitive and feature-packed mobile apps. We prioritize
-              seamless performance, intuitive user interfaces, and robust security
-              measures.
+              <strong className="text-dark">1. Customized Strategies for Maximum ROI:</strong> At CobazTech, we understand that every business is unique. That’s why we create tailored digital marketing plans that align with your brand’s goals. Whether you need higher search rankings, better social media engagement, or increased conversions, our strategies are designed to deliver measurable success.
             </li>
-            <br />
+            <br></br>
             <li>
-              <strong className="text-dark">
-                2. Personalized Solutions for Diverse Enterprises
-              </strong>
-              : From startups to large corporations, we offer customized mobile
-              applications that align with your specific business objectives. Our
-              solutions are designed to be scalable and adaptable to your evolving
-              requirements.
-            </li>
-            <br />
-            <li>
-              <strong className="text-dark">
-                3. Advanced Technological Expertise
-              </strong>
-              : As a foremost app development company in Pune, we stay abreast of
-              industry advancements. Our proficiency encompasses AI-driven
-              applications, IoT integrations, and cloud-based solutions, ensuring
-              exceptional digital experiences.
-            </li>
-            <br />
-            <li>
-              <strong className="text-dark">
-                4. Comprehensive App Development Services
-              </strong>
-              : We provide a full spectrum of mobile app development services,
-              including:
+              <strong className="text-dark">2. Comprehensive Digital Marketing Services:</strong> As the best digital marketing company in Kharadi, we offer a complete range of digital marketing services to help businesses thrive in the competitive online space:
               <ul>
-                <li>UI/UX Design</li>
-                <li>Native and Cross-Platform App Development</li>
-                <li>Application Testing and Quality Assurance</li>
-                <li>Ongoing Maintenance and Support</li>
+                <li>Search Engine Optimization (SEO) – Improve search engine rankings and attract organic traffic.</li>
+                <li>Pay-Per-Click Advertising (PPC) – Get instant leads with targeted ad campaigns.</li>
+                <li>Social Media Marketing (SMM) – Build a strong brand presence across platforms like Facebook, Instagram, and LinkedIn.</li>
+                <li>Content Marketing – Engage and educate your audience with high-quality, SEO-optimized content.</li>
+                <li>Website Development – Design and develop responsive, fast, and user-friendly websites.</li>
+                <li>Email & Automation Marketing – Convert leads into customers with personalized email campaigns.</li>
               </ul>
             </li>
+            <br></br>
+            <li>
+              <strong className="text-dark">3. Proven Expertise Across India:</strong> CobazTech has helped businesses across different industries achieve their marketing goals. That’s why we are recognized as the best digital marketing company in India, delivering innovative strategies that ensure long-term success.
+            </li>
           </ul>
         </section>
-
-        <section className="mb-5">
-          <h3 className="text-info">Sectors We Cater To</h3>
-          <p className="text-muted">
-            We develop mobile applications across various sectors, such as:
-          </p>
-          <ul className="list-unstyled">
-            <li><strong className="text-dark">E-commerce</strong> – Enhance online sales with comprehensive shopping apps.</li>
-            <li><strong className="text-dark">Healthcare</strong> – Secure and compliant health solutions.</li>
-            <li><strong className="text-dark">Education</strong> – Interactive e-learning and training platforms.</li>
-            <li><strong className="text-dark">Real Estate</strong> – Virtual property tours and CRM integrations.</li>
-            <li><strong className="text-dark">Finance</strong> – Secure and user-centric fintech applications.</li>
-          </ul>
-        </section>
-
-        <section className="mb-5">
-          <h3 className="text-info">Our App Development Methodology</h3>
-          <p className="text-muted">
-            We follow a streamlined process to ensure the best outcomes for our clients:
-          </p>
-          <ol>
-            <li><strong>Consultation & Strategy</strong> – We delve into your business requirements and formulate a strategy to develop a robust mobile application.</li>
-            <li><strong>UI/UX Design</strong> – Our design team crafts engaging and user-friendly interfaces that are visually appealing.</li>
-            <li><strong>Development & Integration</strong> – Employing the latest frameworks and tools, we develop applications with seamless functionality and integrate necessary third-party services.</li>
-            <li><strong>Testing & Launch</strong> – Prior to launch, we perform thorough testing to ensure a flawless user experience, followed by efficient deployment on the App Store and Google Play.</li>
-          </ol>
-        </section>
-
+        
         <section>
-          <h3 className="text-info">Collaborate with Pune's Premier App Development Company</h3>
+          <h3 className="text-info">Grow Your Business with the Best Digital Marketing Company in Pune</h3>
           <p className="text-muted">
-            Seeking a dependable top company in Pune for mobile app development? CobazTech, situated in Pune, Kharadi, is your trusted partner in creating innovative and high-performance mobile applications. Let's transform your concept into a tangible solution today!
+            Whether you are a startup, a small business, or an established enterprise, CobazTech provides the expertise and tools you need to succeed in the digital space. With a team of skilled marketers, creative strategists, and SEO specialists, we help brands gain visibility, drive engagement, and increase revenue.
           </p>
-          <p className="text-success">Get in Touch!</p>
-          <p className="text-muted">📞 Phone: 9145730054 🌐 Website: <a href="https://www.cobaztech.com/" target="_blank" rel="noopener noreferrer">www.cobaztech.com</a></p>
-          <p className="text-muted">Let's shape the future together with CobazTech!</p>
+          <p className="text-success">
+            Looking for the best digital marketing company in Kharadi, Pune, or anywhere in India? Partner with CobazTech today and take your business to new heights!
+          </p>
+        </section>
+        
+        <section>
+          <p className="text-muted">📞 Phone: 9145730054</p>
+          <p className="text-muted">🌐 Website: <a href="https://www.cobaztech.com/">www.cobaztech.com</a></p>
         </section>
       </div>
       {/* Page Content End */}
@@ -250,4 +198,4 @@ const AppDevelopment = () => {
   );
 };
 
-export default AppDevelopment;
+export default DigitalMarketing;
