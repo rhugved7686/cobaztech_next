@@ -563,7 +563,7 @@ const Pages = () => {
                   href="https://parmeshwarcabservices.com/"
                 >
                   <i className="bi bi-arrow-right text-primary me-2" />
-                  Parmeshwar Cab Service
+                  Parmeshwar Cab 
                 </a>
                 <a className="text-light mb-2" href="https://shivgarjana.com/">
                   <i className="bi bi-arrow-right text-primary me-2" />
@@ -621,11 +621,10 @@ const Pages = () => {
           >
             <p className="mb-0">
               ©{" "}
-              <a className="text-white border-bottom" href="/">
-                Cobaztech
+              <a className="text-white border-bottom" href="/Privacy">
+                Privacy & Policy
               </a>
               . All Rights Reserved.
-              {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
               Designed by{" "}
               <a
                 className="text-white border-bottom"
